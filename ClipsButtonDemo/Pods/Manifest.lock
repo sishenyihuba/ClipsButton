@@ -1,0 +1,22 @@
+PODS:
+  - ClipsButton (1.00)
+
+DEPENDENCIES:
+  - ClipsButton (from `https://github.com/sishenyihuba/ClipsButton.git`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  ClipsButton:
+    :git: https://github.com/sishenyihuba/ClipsButton.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  ClipsButton:
+    :git: https://github.com/sishenyihuba/ClipsButton.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  ClipsButton: b9956c9cd40f1dd63e567fd1981f5188dec4b68d
+
+PODFILE CHECKSUM: 19e978ec48208ce15f359f2837ce32259ea4e198
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FE18DF63B9B045324933B5 /* Pods_ClipsButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09584270722F6B94CC6A7360 /* Pods_ClipsButtonDemo.framework */; };
+		2BA9DDFD1F4FE812002181DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9DDFC1F4FE812002181DB /* AppDelegate.swift */; };
+		2BA9DE021F4FE812002181DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9DE001F4FE812002181DB /* Main.storyboard */; };
+		2BA9DE041F4FE812002181DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9DE031F4FE812002181DB /* Assets.xcassets */; };
+		2BA9DE071F4FE812002181DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9DE051F4FE812002181DB /* LaunchScreen.storyboard */; };
+		2BA9DE0F1F4FE83B002181DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9DE0E1F4FE83B002181DB /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BA9DE1A1F4FE860002181DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09584270722F6B94CC6A7360 /* Pods_ClipsButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClipsButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE75FC1CE5CDD5D2F4009F3 /* Pods-ClipsButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipsButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClipsButtonDemo/Pods-ClipsButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA9DDF91F4FE812002181DB /* ClipsButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipsButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA9DDFC1F4FE812002181DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BA9DE011F4FE812002181DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA9DE031F4FE812002181DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA9DE061F4FE812002181DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA9DE081F4FE812002181DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA9DE0E1F4FE83B002181DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0239C3E1562F0528E38144B /* Pods-ClipsButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClipsButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClipsButtonDemo/Pods-ClipsButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA9DDF61F4FE812002181DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FE18DF63B9B045324933B5 /* Pods_ClipsButtonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA9DDF01F4FE812002181DB = {
+			isa = PBXGroup;
+			children = (
+				2BA9DDFB1F4FE812002181DB /* ClipsButtonDemo */,
+				2BA9DDFA1F4FE812002181DB /* Products */,
+				964036D94E2606865636E7DB /* Pods */,
+				30F371C9930454D7CACA37DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA9DDFA1F4FE812002181DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9DDF91F4FE812002181DB /* ClipsButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA9DDFB1F4FE812002181DB /* ClipsButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9DE0E1F4FE83B002181DB /* ViewController.swift */,
+				2BA9DDFC1F4FE812002181DB /* AppDelegate.swift */,
+				2BA9DE001F4FE812002181DB /* Main.storyboard */,
+				2BA9DE031F4FE812002181DB /* Assets.xcassets */,
+				2BA9DE051F4FE812002181DB /* LaunchScreen.storyboard */,
+				2BA9DE081F4FE812002181DB /* Info.plist */,
+			);
+			path = ClipsButtonDemo;
+			sourceTree = "<group>";
+		};
+		30F371C9930454D7CACA37DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09584270722F6B94CC6A7360 /* Pods_ClipsButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964036D94E2606865636E7DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE75FC1CE5CDD5D2F4009F3 /* Pods-ClipsButtonDemo.debug.xcconfig */,
+				F0239C3E1562F0528E38144B /* Pods-ClipsButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA9DDF81F4FE812002181DB /* ClipsButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9DE0B1F4FE812002181DB /* Build configuration list for PBXNativeTarget "ClipsButtonDemo" */;
+			buildPhases = (
+				9F8A589473A209A4AA328E9A /* [CP] Check Pods Manifest.lock */,
+				2BA9DDF51F4FE812002181DB /* Sources */,
+				2BA9DDF61F4FE812002181DB /* Frameworks */,
+				2BA9DDF71F4FE812002181DB /* Resources */,
+				2BA9DE1A1F4FE860002181DB /* Embed Frameworks */,
+				63B604172C45A9C540A01321 /* [CP] Embed Pods Frameworks */,
+				29FE122EEB4728A8DDC481EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipsButtonDemo;
+			productName = ClipsButtonDemo;
+			productReference = 2BA9DDF91F4FE812002181DB /* ClipsButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA9DDF11F4FE812002181DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dxl;
+				TargetAttributes = {
+					2BA9DDF81F4FE812002181DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BA9DDF41F4FE812002181DB /* Build configuration list for PBXProject "ClipsButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA9DDF01F4FE812002181DB;
+			productRefGroup = 2BA9DDFA1F4FE812002181DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA9DDF81F4FE812002181DB /* ClipsButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA9DDF71F4FE812002181DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA9DE071F4FE812002181DB /* LaunchScreen.storyboard in Resources */,
+				2BA9DE041F4FE812002181DB /* Assets.xcassets in Resources */,
+				2BA9DE021F4FE812002181DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29FE122EEB4728A8DDC481EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClipsButtonDemo/Pods-ClipsButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B604172C45A9C540A01321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClipsButtonDemo/Pods-ClipsButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8A589473A209A4AA328E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA9DDF51F4FE812002181DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA9DE0F1F4FE83B002181DB /* ViewController.swift in Sources */,
+				2BA9DDFD1F4FE812002181DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA9DE001F4FE812002181DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA9DE011F4FE812002181DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA9DE051F4FE812002181DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA9DE061F4FE812002181DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA9DE091F4FE812002181DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BA9DE0A1F4FE812002181DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA9DE0C1F4FE812002181DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE75FC1CE5CDD5D2F4009F3 /* Pods-ClipsButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClipsButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.ClipsButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2BA9DE0D1F4FE812002181DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0239C3E1562F0528E38144B /* Pods-ClipsButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClipsButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.ClipsButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA9DDF41F4FE812002181DB /* Build configuration list for PBXProject "ClipsButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9DE091F4FE812002181DB /* Debug */,
+				2BA9DE0A1F4FE812002181DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9DE0B1F4FE812002181DB /* Build configuration list for PBXNativeTarget "ClipsButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9DE0C1F4FE812002181DB /* Debug */,
+				2BA9DE0D1F4FE812002181DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA9DDF11F4FE812002181DB /* Project object */;
+}
