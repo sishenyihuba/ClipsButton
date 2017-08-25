@@ -17,11 +17,11 @@ pod "ClipsButton"
 ```
 ## Useage
 
-###@IBInspectable Supported
+### @IBInspectable Supported
 
 <img src ="https://github.com/sishenyihuba/ClipsButton/blob/master/Images/SB.png" />
 
-###Code
+### Code
 ```
 let button = ClipsButton()
 button.clipsColor = UIColor.red
