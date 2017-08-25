@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ClipsButton"
-  s.version      = "1.00"
+  s.version      = "1.0.0"
   s.summary      = "A Button insipraed by Apple Clips"
   s.description  = "The ClipsButton is a completely customizable widget that can be used in any iOS app.It looks like Record Button in Apple Clips"
   s.homepage     = "https://github.com/sishenyihuba/ClipsButton"
